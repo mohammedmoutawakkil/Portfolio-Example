@@ -60,9 +60,9 @@ const socials=ref([
 			</div>
           <p class="break-all text-xl text-gray-600">Also, currently available for freelance work. My scope of work includes but not limited to:</p>
           <ul class="pl-10 list-disc dark:text-Slate-400">
-              <li>Backend Development</li>
+              <li>Full-stack Development</li>
               <li>Application Programming Interface(API)</li>
-              <li>Python Development</li>
+              <li>Backend Development</li>
               <li>Code Review &amp; Testing</li>
               <li>Frontend Development</li>
           </ul>

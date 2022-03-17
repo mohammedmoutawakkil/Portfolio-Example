@@ -1,14 +1,11 @@
 <script setup>
-
-
+import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 </script>
 
 <template>
-  <div>
-    Blogs
-  </div>
+	<div class="container mx-auto">
+		<ProjectsGrid />
+	</div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
