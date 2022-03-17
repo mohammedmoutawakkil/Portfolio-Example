@@ -22,7 +22,9 @@ module.exports = {
             Slate: colors.slate,
             Indigo: colors.indigo,
             Yellow: colors.yellow,
-            white: colors.white
+            white: colors.white,
+            red: colors.red,
+            green: colors.green
         },
         fontWeight: {
             hairline: 100,

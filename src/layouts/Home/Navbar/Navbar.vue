@@ -11,6 +11,7 @@
       >
       <div class="max-w-6xl md:ml-64 px-4">
         <div class="flex items-center justify-between">
+          
           <router-link
             :to="{name:'Home'}"
             class="
@@ -67,10 +68,10 @@
             <router-link :to="{name:'Home'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">Home</router-link>
           </li>
           <li class="text-center sm:text-lg">
-            <router-link :to="{name:'About'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">About</router-link>
+            <router-link :to="{name:'Projects'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">Projects</router-link>
           </li>
           <li class="text-center sm:text-lg">
-            <router-link :to="{name:'Blogs'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">Blogs</router-link>
+            <router-link :to="{name:'About'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">About</router-link>
           </li>
           <li class="text-center text-lg">
             <router-link :to="{name:'ContactUS'}"  class="text-center text-gray-600 dark:text-Slate-100 font-medium hover:text-Sky-500 hover:dark:text-Indigo-700 transition duration-300 hover:border-b-4 hover:border-Sky-500 hover:dark:border-Indigo-700">Contact Us</router-link>
