@@ -24,7 +24,8 @@ module.exports = {
             Yellow: colors.yellow,
             white: colors.white,
             red: colors.red,
-            green: colors.green
+            green: colors.green,
+            blue: colors.blue
         },
         fontWeight: {
             hairline: 100,

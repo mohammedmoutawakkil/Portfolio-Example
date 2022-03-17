@@ -17,7 +17,6 @@ export default {
     },
     actions: {
         toggleTheme({ commit }, store) {
-            console.log(localStorage.getItem('theme'));
             if (store.store === 'dark') {
                 commit('setLightTheme');
             } else {

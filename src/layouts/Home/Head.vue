@@ -1,5 +1,5 @@
 <script setup>
-import Description from '../../../components/Description.vue';
+import Description from '../../components/Description.vue';
 import { useStore } from 'vuex';
 import { computed} from '@vue/runtime-core';
 const store=useStore();

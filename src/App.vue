@@ -13,6 +13,7 @@ const Theme=computed(()=>store.state.user.currentTheme);
     <NavbarVue></NavbarVue>
     <router-view></router-view>
     </div>
+    
   </div>
 </template>
 <style>

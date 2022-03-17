@@ -3,13 +3,12 @@
     <div>
       <nav
         class="
-          px-6
           py-8
           mx-auto
-          md:flex md:justify-between md:items-center
+          lg:flex lg:justify-between lg:items-center
         "
       >
-      <div class="max-w-6xl md:ml-64 px-4">
+      <div class="max-w-6xl md:ml-64 ">
         <div class="flex items-center justify-between">
           
           <router-link
@@ -26,13 +25,14 @@
             >M.W.K
           </router-link>
           <!-- Mobile menu button -->
-          <div @click="showMenu = !showMenu" class="flex md:hidden">
+          <div @click="showMenu = !showMenu" class="flex lg:hidden">
             <button
               type="button"
               class="
                 text-gray-600
                 dark:text-Slate-100
                 hover:text-gray-400
+                mr-9
               "
             >
               <fa :icon="['fa','bars']" />
@@ -49,19 +49,19 @@
             flex-col
             mt-8
             space-y-4
-            md:flex
-            md:space-y-0
-            md:flex-row
-            md:items-center
-            md:space-x-10
-            md:mt-0
-            md:mr-64 
+            lg:flex
+            lg:space-y-0
+            lg:flex-row
+            lg:items-center
+            lg:space-x-10
+            lg:mt-0
+            lg:mr-64 
             bg-Slate-200 
             dark:bg-Slate-900
             rounded-tr-full
             rounded-bl-full
-            py-5 
-            px-9 shadow-lg
+            py-5 px-9
+            shadow-lg
           "
         >
           <li class="text-center sm:text-lg">
