@@ -9,6 +9,7 @@ const props = defineProps({select: {
 				'Web Application',
 				'Desktop Application',
 				'UI',
+				'OpenSource'
 			],
 		},});
 </script>

@@ -19,7 +19,6 @@
               dark:text-Slate-100
               text-gray-800
               md:text-2xl
-              hover:text-blue-400
               jo
             "
             >M.W.K

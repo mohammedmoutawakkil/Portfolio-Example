@@ -3,10 +3,11 @@ const props=defineProps(['project']);
 </script>
 
 <template>
-	<router-link
-		to="/projects/single-project"
-		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-Slate-50 dark:bg-Slate-900"
+	<a
+		:href="project.link"
+		class=" rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-Sky-100 dark:bg-gray-200 transform duration-300 hover:-translate-y-1 hover:scale-110"
 		aria-label="Single Project"
+		:target="(project.link!='javascript:void(0)')?'_blank':''"
 	>
 		<div>
 			<img
@@ -17,16 +18,16 @@ const props=defineProps(['project']);
 		</div>
 		<div class="text-center px-4 py-6">
 			<p
-				class="text-xl text-Slate-800 dark:text-Slate-100 font-semibold mb-2"
+				class="text-xl text-Slate-800 dark:text-Slate-600 font-semibold mb-2"
 			>
 				{{ project.title }}
 			</p>
 			<span
-				class="font-medium text-lg text-Slate-800 dark:text-Slate-100"
+				class="font-medium text-lg text-Slate-800 dark:text-Slate-600"
 				>{{ project.category }}</span
 			>
 		</div>
-	</router-link>
+	</a>
 </template>
 
 <style  scoped></style>
