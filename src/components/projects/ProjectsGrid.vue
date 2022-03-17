@@ -30,10 +30,23 @@ function filterProjectsBySearch() {
 </script>
 
 <template>
+ 	<div class="container mt-72">
+		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;h1&gt;</p>
+        <h1 class="text-center font-extrabold  dark:text-Slate-100
+        duration-300 text-3xl md:text-3xl xl:text-6xl ">Projects</h1>
+		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;/h1&gt;</p>
+		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;p&gt;</p>
+        <p class="text-center font-medium mt-2 text-lg sm:text-xl  xl:text-2xl   leading-none text-gray-400"
+		>
+        Some of the projects i have succesfully complited 
+        </p>
+		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
+    </div>
 	<!-- Projects grid -->
 	<section class="pt-10 sm:pt-14">
 		<!-- Filter and search projects -->
 		<div class="mt-10 sm:mt-10">
+	<p class="text-gray-500 font-tangerine text-4xl">&lt;section&gt;</p>
 			<h3
 				class="font-general-regular
 					text-center text-secondary-dark
@@ -111,6 +124,7 @@ function filterProjectsBySearch() {
 			/>
 		</div>
 	</section>
+	<p class="text-gray-500 font-tangerine text-4xl mt-9">&lt;/section&gt;</p>
 </template>
 
 <style scoped></style>

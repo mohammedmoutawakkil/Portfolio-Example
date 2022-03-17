@@ -11,6 +11,7 @@ const Theme=computed(()=>store.state.user.currentTheme);
 	>
 		<!-- Banner left contents -->
 		<div class="w-full md:w-3/5 text-left">
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;h1&gt;</p>
 			<h1
 				class="font-extra-bold text-center sm:text-left  dark:text-Slate-100 uppercase"
 			>
@@ -40,12 +41,16 @@ const Theme=computed(()=>store.state.user.currentTheme);
 				<Description>i</Description>
 				<Description>l</Description>
 			</h1>
+			<p class="text-gray-500 font-tangerine text-4xl">&lt;/h1&gt;</p>
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;p&gt;</p>
 			<p
 				class="font-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
 				Api / Full-Stuck Developer who use <span class="font-extra-bold text-green-700">@vuejs</span> && 
 				<span class="font-extra-bold text-red-800">@laravel</span>. 
-			</p>
+			</p> 
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
+
 			<div class="flex justify-center sm:block">
 				<a
 					download="Stoman-Resume.pdf"

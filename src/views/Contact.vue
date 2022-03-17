@@ -36,11 +36,15 @@ const socials=ref([
   <div class="block sm:flex sm:gap-10 lg:px-48 lx:px-48 md:px-48 mt-10 sm:mt-20">
 		<!-- About details -->
 		<div class="w-full sm:w-6/12 text-left">
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;h1&gt;</p>
 			<h1 class="text-5xl font-semibold dark:text-Slate-200">Contact Details</h1>
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;/h1&gt;</p>
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;p&gt;</p>
           <p class="break-all text-xl text-gray-600">Hi 👋 How are you? Thank you for visiting My Portfolio. If you have any inquiries or feedback, please don't hesitate to reach out. I am available at the following social media outlets:</p>
-          <!-- Footer social links -->
+		<p class="text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
+		  <!-- Footer social links -->
 			<div
-				class="flex flex-col justify-center items-left  my-9 sm:my-16"
+				class="flex flex-col justify-center items-left  my-4 sm:my-8"
 			>
 				<ul class="flex gap-4 sm:gap-8">
 					<a
@@ -59,7 +63,7 @@ const socials=ref([
 				</ul>
 			</div>
           <p class="break-all text-xl text-gray-600">Also, currently available for freelance work. My scope of work includes but not limited to:</p>
-          <ul class="pl-10 list-disc dark:text-Slate-400">
+		  <ul class="pl-10 list-disc dark:text-Slate-400">
               <li>Full-stack Development</li>
               <li>Application Programming Interface(API)</li>
               <li>Backend Development</li>

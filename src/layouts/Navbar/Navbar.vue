@@ -21,7 +21,7 @@
               md:text-2xl
               jo
             "
-            >M.W.K
+            ><span>M</span><span>W</span><span>K</span>
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex lg:hidden">

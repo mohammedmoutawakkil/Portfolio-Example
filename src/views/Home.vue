@@ -1,13 +1,13 @@
 <script setup>
 import Head from '../layouts/Home/Head.vue';
-import ProjectSection from '../layouts/Home/Body/ProjectSection.vue';
 import ProjectsGridVue from '../components/projects/ProjectsGrid.vue';
 </script>
 
 <template>
   <div class="container mx-auto">
+	<p class="text-gray-500 font-tangerine text-4xl xl:-ml-16 lg:-ml-9 ">&lt;section&gt;</p>
     <Head/>
-    <ProjectSection/>
+	<p class="text-gray-600 font-tangerine text-4xl xl:-ml-16 lg:-ml-9 ">&lt;/section&gt;</p>
     <ProjectsGridVue />
     <!-- Load more projects button -->
 		<div class="mt-10 sm:mt-20 flex justify-center">

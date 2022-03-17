@@ -55,6 +55,9 @@ module.exports = {
             '6xl': '4rem',
             '7xl': '5rem',
         },
+        fontFamily: {
+            'tangerine': ['Tangerine', 'cursive', 'Oswald', 'sans-serif'],
+        },
         extend: {},
     },
     plugins: [],
