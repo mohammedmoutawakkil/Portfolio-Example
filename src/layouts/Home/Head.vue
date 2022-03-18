@@ -1,7 +1,11 @@
 <script setup>
 import Description from '../../components/Description.vue';
 import { useStore } from 'vuex';
-import { computed} from '@vue/runtime-core';
+import { computed, ref} from '@vue/runtime-core';
+const pngs =
+    import.meta.globEager('/src/assets/images/*.svg');
+const darkimage=ref(pngs['/src/assets/images/background_dark.svg'].default);
+const lightimage=ref(pngs['/src/assets/images/background_light.svg'].default);
 const store=useStore();
 const Theme=computed(()=>store.state.user.currentTheme);
 </script>
@@ -71,7 +75,7 @@ const Theme=computed(()=>store.state.user.currentTheme);
 		<!-- Banner right illustration -->
 		<div class="w-full md:w-2/5 text-right float-right">
 			<img
-				:src="(Theme==='light')?'/src/assets/images/background_light.svg':'/src/assets/images/background_dark.svg'"
+				:src="(Theme==='light')?lightimage:darkimage"
 				alt="Developer"
 			/>
 		</div>
