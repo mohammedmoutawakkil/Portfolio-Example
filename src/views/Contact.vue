@@ -26,7 +26,7 @@ const socials=ref([
 					id: 4,
 					name: 'Gmail',
 					icon: 'envelope',
-					url: 'mailto:yasserth19@gmail.com',
+					url: 'mailto:mohamedmoutawakkil1999@gmail.com',
                     class:'hover:text-red-500 dark:hover:text-red-400'
 				},
 			]);
