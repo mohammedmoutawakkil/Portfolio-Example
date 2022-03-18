@@ -10,7 +10,7 @@ const props=defineProps(['projectImages']);
 			:key="projectImage.id"
 		>
 			<img
-				:src="projectImage.img"
+				:src="require(projectImage.img)"
 				class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 				alt="{{ projectImage.title }}"
 			/>
