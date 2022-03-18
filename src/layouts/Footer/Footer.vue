@@ -1,6 +1,9 @@
 <script setup>
 import { ref } from '@vue/reactivity';
 import FooterCopyright from './FooterCopyright.vue';
+function scrollToTop() {
+    window.scroll({top:0,left:0,behavior: 'smooth'});
+}
 const socials=ref([
 				{
 					id: 1,
@@ -63,6 +66,7 @@ const socials=ref([
 						/>
 					</a>
 				</ul>
+				<button @click="scrollToTop" class="shadow-lg bg-Cyan-500 dark:bg-Indigo-700 text-white outline-none rounded-full mt-5 p-3"><fa :icon="['fa','chevron-up']"/></button>
 			</div>
 
 			<!-- Footer copyright -->
