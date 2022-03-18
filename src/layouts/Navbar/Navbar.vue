@@ -15,13 +15,14 @@
             :to="{name:'Home'}"
             class="
               text-xl
-              font-bold
+              font-tangerine
+              font-semibold
               dark:text-Slate-100
               text-gray-800
               md:text-2xl
               jo
             "
-            ><span>M</span><span>W</span><span>K</span>
+            ><img src="/Logo.png" class="w-24">
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex lg:hidden">
