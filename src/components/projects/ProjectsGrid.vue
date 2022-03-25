@@ -38,7 +38,7 @@ function filterProjectsBySearch() {
 		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;p&gt;</p>
         <p class="text-center font-medium mt-2 text-lg sm:text-xl  xl:text-2xl   leading-none text-gray-400"
 		>
-        Some of the projects i have succesfully complited 
+        Some of the projects i have succesfully completed 
         </p>
 		<p class="text-center text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
     </div>
