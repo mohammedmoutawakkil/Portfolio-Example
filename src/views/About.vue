@@ -16,9 +16,7 @@
 			<p
 				class="break-all font-medium mb-4 text-gray-400 text-4xl"
 			>
-				Hi I'm Mohammed Moutawakkil A <span class="font-extra-bold text-green-700">@vuejs</span> && 
-				<span class="font-extra-bold text-red-800">@laravel</span> Full-stack Developer.
-        I also Develop  Windows Applications Using <span class="font-extra-bold text-Indigo-800">@C#</span>.
+				Hi I'm Mohammed Moutawakkil A Software Developer, I help founders add value to society through technology, I love open source and startups.
 			</p>
 		<p class="text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
 

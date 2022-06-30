@@ -3,9 +3,9 @@ import Description from '../../components/Description.vue';
 import { useStore } from 'vuex';
 import { computed, ref} from '@vue/runtime-core';
 const pngs =
-    import.meta.globEager('/src/assets/images/*.svg');
-const darkimage=ref(pngs['/src/assets/images/background_dark.svg'].default);
-const lightimage=ref(pngs['/src/assets/images/background_light.svg'].default);
+    import.meta.globEager('/src/assets/images/*.png');
+const darkimage=ref(pngs['/src/assets/images/background_dark.png'].default);
+const lightimage=ref(pngs['/src/assets/images/background_light.png'].default);
 const store=useStore();
 const Theme=computed(()=>store.state.user.currentTheme);
 </script>
@@ -50,8 +50,8 @@ const Theme=computed(()=>store.state.user.currentTheme);
 			<p
 				class="font-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				Api / Full-Stuck Developer who use <span class="font-extra-bold text-green-700">@vuejs</span> && 
-				<span class="font-extra-bold text-red-800">@laravel</span>. 
+				Api / Full-Stuck Developer who use <span class="font-extra-bold text-green-700">@VueJS</span> && 
+				<span class="font-extra-bold text-red-800">@NestJS</span>. 
 			</p> 
 		<p class="text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
 
