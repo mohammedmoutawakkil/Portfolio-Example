@@ -8,6 +8,13 @@ const projects = [{
         link: 'http://laureats.fsjes-umi.ac.ma/'
     },
     {
+        id: 6,
+        title: 'Koala',
+        category: 'UI/OpenSource',
+        img: pngs['/src/assets/images/projects/koala.png'].default,
+        link: 'https://koala-agency.vercel.app/'
+    },
+    {
         id: 2,
         title: 'MK Market',
         category: 'Desktop Application/OpenSource',
@@ -33,7 +40,7 @@ const projects = [{
         title: 'Easy Booking',
         category: 'Web Application',
         img: pngs['/src/assets/images/projects/web-project-2.png'].default,
-        link: 'javascript:void(0)'
+        link: 'https://hub.docker.com/r/yezz123/easybooking'
     },
 ];
 
