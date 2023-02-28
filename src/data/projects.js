@@ -8,13 +8,6 @@ const projects = [{
         link: 'http://laureats.fsjes-umi.ac.ma/'
     },
     {
-        id: 6,
-        title: 'Koala',
-        category: 'UI/OpenSource',
-        img: pngs['/src/assets/images/projects/koala.png'].default,
-        link: 'https://koala-agency.vercel.app/'
-    },
-    {
         id: 2,
         title: 'MK Market',
         category: 'Desktop Application/OpenSource',
