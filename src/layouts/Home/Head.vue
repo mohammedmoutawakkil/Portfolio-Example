@@ -50,8 +50,7 @@ const Theme=computed(()=>store.state.user.currentTheme);
 			<p
 				class="font-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				Api / Full-Stuck Developer who use <span class="font-extra-bold text-green-700">@VueJS</span> && 
-				<span class="font-extra-bold text-red-800">@NestJS</span>. 
+				Api / Full-Stuck Developer. 
 			</p> 
 		<p class="text-gray-500 font-tangerine text-4xl">&lt;/p&gt;</p>
 
