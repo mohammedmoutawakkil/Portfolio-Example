@@ -9,13 +9,6 @@ const socials=ref([
                     class:'hover:dark:text-Slate-200 hover:text-Slate-800'
 				},
 				{
-					id: 2,
-					name: 'Twitter',
-					icon: 'twitter',
-					url: 'https://twitter.com/MWK_MOHAMMED',
-                    class:'hover:text-Cyan-500'
-				},
-				{
 					id: 3,
 					name: 'Linkedin',
 					icon: 'linkedin',
