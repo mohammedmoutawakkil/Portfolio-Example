@@ -1,7 +1,7 @@
 ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/creativetimofficial/vue-notus/issues?q=is%3Aopen+is%3Aissue" target="_blank">
 # Portfolio .
   
-![mwk](https://user-images.githubusercontent.com/70536218/179277396-5c1efdad-1476-43f6-871c-e8fc0246ee6d.png)
+![Untitled-1](https://user-images.githubusercontent.com/70536218/224535986-5d8b7be7-44a9-48e9-9cf0-4ca90c468eae.png)
 
 This Portfolio is an open source project that provides a stylish and modern template for developers who want to create a professional portfolio website. The template includes a range of customizable features, including responsive design, animation effects, and interactive elements, making it easy to create a unique and visually appealing portfolio website that showcases your skills, projects, and work experience.
 
